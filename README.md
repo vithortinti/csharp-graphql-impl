@@ -23,7 +23,7 @@ For more information, you can read the official EF Core documentation: https://l
 ### Docker 🐳
 This repository offers a way to test the application with a Postgres database running in a Docker container. 
 If you prefer to run the application on a Postgres instance without the need for a Docker container, you must change the Connection String to the correct instance 
-[here](https://github.com/vithortinti/csharp-graphql-impl/blob/8f865c3bace4e05f5586fdc1f1937398f02d831b/Study.GraphQL/appsettings.json#L9).
+[here](https://github.com/vithortinti/csharp-graphql-impl/blob/74bc98234e05ffe41d549c6348557f73af29c3c2/Study.GraphQL/appsettings.json#L9).
 
 To create the Docker container, in the root of the project there is a [`docker-compose`](https://github.com/vithortinti/csharp-graphql-impl/blob/main/docker-compose.yaml) file.
 
