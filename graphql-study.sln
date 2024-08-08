@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study.GraphQL.Commons", "Study.GraphQL.Commons\Study.GraphQL.Commons.csproj", "{0B627CD4-BFBE-4AE1-A0F8-B7B71E065134}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study.GraphQL", "Study.GraphQL\Study.GraphQL.csproj", "{B2D7F102-957D-4078-9979-BA1CC98DD3BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study.GraphQL.Data", "Study.GraphQL.Data\Study.GraphQL.Data.csproj", "{C655C894-6743-4C3E-9454-F8841C8C902C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study.GraphQL.Persons", "Study.GraphQL.Persons\Study.GraphQL.Persons.csproj", "{D8A89540-A02C-4457-A4FA-F472763802EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{D644B251-B439-41BF-BF36-5396BDDB0BAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{54E63BF9-ADA5-46C5-B1B0-4E0EEB87F763}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{CCF17905-658E-46FA-8EE4-327672457156}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commons", "Commons", "{298EFC5F-60CC-4F7C-A65D-F4A766A9E9A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B627CD4-BFBE-4AE1-A0F8-B7B71E065134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B627CD4-BFBE-4AE1-A0F8-B7B71E065134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B627CD4-BFBE-4AE1-A0F8-B7B71E065134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B627CD4-BFBE-4AE1-A0F8-B7B71E065134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2D7F102-957D-4078-9979-BA1CC98DD3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D7F102-957D-4078-9979-BA1CC98DD3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D7F102-957D-4078-9979-BA1CC98DD3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D7F102-957D-4078-9979-BA1CC98DD3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C655C894-6743-4C3E-9454-F8841C8C902C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C655C894-6743-4C3E-9454-F8841C8C902C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C655C894-6743-4C3E-9454-F8841C8C902C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C655C894-6743-4C3E-9454-F8841C8C902C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A89540-A02C-4457-A4FA-F472763802EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A89540-A02C-4457-A4FA-F472763802EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A89540-A02C-4457-A4FA-F472763802EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A89540-A02C-4457-A4FA-F472763802EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2D7F102-957D-4078-9979-BA1CC98DD3BF} = {D644B251-B439-41BF-BF36-5396BDDB0BAC}
+		{D8A89540-A02C-4457-A4FA-F472763802EB} = {54E63BF9-ADA5-46C5-B1B0-4E0EEB87F763}
+		{C655C894-6743-4C3E-9454-F8841C8C902C} = {CCF17905-658E-46FA-8EE4-327672457156}
+		{0B627CD4-BFBE-4AE1-A0F8-B7B71E065134} = {298EFC5F-60CC-4F7C-A65D-F4A766A9E9A9}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+services:
+  database:
+    image: postgres:latest
+    container_name: gql
+    ports:
+      - 54321:5432
+    environment:
+      POSTGRES_USER: gql
+      POSTGRES_PASSWORD: gql
+      POSTGRES_DB: gql
+    networks:
+      gql_network:
+        ipv4_address: 172.16.0.100
+
+networks:
+  gql_network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.16.0.0/24
+          gateway: 172.16.0.1
